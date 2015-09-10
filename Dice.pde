@@ -5,7 +5,7 @@ void setup()
 }
 void draw()
 {
-  background(230);
+  background(random(0,255),random(0,255),random(0,255););
   for(int y = 0; y < 250; y+=50)
     {
     for(int x = 0; x < 250; x+=50)
