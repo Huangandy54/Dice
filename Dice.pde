@@ -5,15 +5,15 @@ void setup()
 }
 void draw()
 {
-	background(230);
-	for(int y = 50; y < 250; y = y + 60)
+  background(230);
+  for(int y = 0; y < 250; y+=50)
     {
-		for(int x = 50; x < 250; x = x + 60)
-    	{
-		Die one = new Die(x,y);
+    for(int x = 0; x < 250; x+=50)
+      {
+    Die one = new Die(x,y);
         one.show();
         one.roll();
-    	}
+      }
     }
 }
 void mousePressed()
