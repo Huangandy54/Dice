@@ -5,10 +5,10 @@ void setup()
 }
 void draw()
 {
-  background(random(0,255),random(0,255),random(0,255););
-  for(int y = 0; y < 250; y+=50)
+  background(random(0,255),random(0,255),random(0,255));
+  for(int y = 0; y < 400; y+=50)
     {
-    for(int x = 0; x < 250; x+=50)
+    for(int x = 0; x < 400; x+=50)
       {
     Die one = new Die(x,y);
         one.show();
