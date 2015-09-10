@@ -32,6 +32,13 @@ class Die //models one single dice cube
 	}
 	void roll()
 	{
+		
+	}
+	void show()
+	{
+		fill(255);
+		rect(diceX,diceY ,50,50,10);
+		println(roll);
 		if (roll==1) {
 			fill(0);
 			ellipse(diceX+25, diceY+25, 5, 5);
@@ -78,11 +85,5 @@ class Die //models one single dice cube
 
 
 
-	}
-	void show()
-	{
-		fill(255);
-		rect(diceX,diceY ,50,50,10);
-		println(roll);
 	}
 }
