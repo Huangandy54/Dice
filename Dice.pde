@@ -12,14 +12,12 @@ void draw()
       {
     Die one = new Die(x,y);
         one.show();
-        one.roll();
       }
     }
 }
 void mousePressed()
 {
 	redraw();
-
 }
 class Die //models one single dice cube
 {
@@ -38,7 +36,6 @@ class Die //models one single dice cube
 	{
 		fill(255);
 		rect(diceX,diceY ,50,50,10);
-		println(roll);
 		if (roll==1) {
 			fill(0);
 			ellipse(diceX+25, diceY+25, 5, 5);
