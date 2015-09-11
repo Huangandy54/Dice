@@ -40,19 +40,23 @@ class Die //models one single dice cube
   }
   void show()
   {
+    stroke(1);
     fill(255);
     rect(diceX,diceY ,50,50,10);
     if (roll==1) {
+      noStroke();
       fill(255,0,0);
       ellipse(diceX+25, diceY+25, 10,10);
     }
     if (roll==2) {
+      noStroke();
       fill(255,0,0);
       ellipse(diceX+40, diceY+10, 10, 10);
       ellipse(diceX+10, diceY+40, 10, 10);
     }
 
     if (roll==3) {
+      noStroke();
       fill(255,0,0);
       ellipse(diceX+40, diceY+10, 10, 10);
       ellipse(diceX+25, diceY+25, 10, 10);
@@ -60,6 +64,7 @@ class Die //models one single dice cube
     }
 
     if (roll==4) {
+      noStroke();
       fill(255,0,0);
       ellipse(diceX+10, diceY+10, 10, 10);
       ellipse(diceX+40, diceY+10, 10, 10);
@@ -68,6 +73,7 @@ class Die //models one single dice cube
     }
 
     if (roll==5) {
+      noStroke();
       fill(255,0,0);
       ellipse(diceX+10, diceY+10, 10, 10);
       ellipse(diceX+40, diceY+10, 10, 10);
@@ -77,6 +83,7 @@ class Die //models one single dice cube
     }
 
     if (roll==6) {
+      noStroke();
       fill(255,0,0);
       ellipse(diceX+10, diceY+10, 10, 10);
       ellipse(diceX+10, diceY+25, 10, 10);
