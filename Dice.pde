@@ -1,4 +1,5 @@
 int sum=0;
+int roll=0;
 void setup()
 {
   size(400,425);
@@ -18,12 +19,13 @@ void draw()
     }
   fill(0);
   textSize(20);
-  text("total is: "+sum,0,415);
+  text("Total is: "+sum+"    Rolls:"+roll,0,415);
 }
 void mousePressed()
 {
   redraw();
   sum=0;
+  roll++;
 }
 class Die //models one single dice cube
 {
