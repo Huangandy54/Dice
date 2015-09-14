@@ -19,7 +19,7 @@ void draw()
     }
   fill(0);
   textSize(20);
-  text("Total is: "+sum+"    Rolls:"+roll,0,415);
+  text("Total is: "+sum+"    Rolls:"+roll,0,420);
 }
 void mousePressed()
 {
